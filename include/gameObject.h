@@ -16,7 +16,7 @@ public:
     virtual void update();
     virtual void setplayer(bool isPlayer){}
     virtual ICollider* getCollider() {
-        return nullptr; // Default implementation, can be overridden
+        return nullptr; 
     }
 protected:
     Position _pos;

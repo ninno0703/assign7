@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home1/student/stud113/s11323/oop/assign6
+CMAKE_SOURCE_DIR = /mnt/c/Users/ninno/code/assign7
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home1/student/stud113/s11323/oop/assign6/build
+CMAKE_BINARY_DIR = /mnt/c/Users/ninno/code/assign7/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home1/student/stud113/s11323/oop/assign6/build/CMakeFiles /home1/student/stud113/s11323/oop/assign6/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ninno/code/assign7/build/CMakeFiles /mnt/c/Users/ninno/code/assign7/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home1/student/stud113/s11323/oop/assign6/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/ninno/code/assign7/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -153,53 +153,77 @@ src/AnsiPrint.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/src/AnsiPrint.cpp.s
 .PHONY : src/AnsiPrint.cpp.s
 
-src/RPSGameObject.o: src/RPSGameObject.cpp.o
-.PHONY : src/RPSGameObject.o
+src/BreakoutController.o: src/BreakoutController.cpp.o
+.PHONY : src/BreakoutController.o
 
 # target to build an object file
-src/RPSGameObject.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/src/RPSGameObject.cpp.o
-.PHONY : src/RPSGameObject.cpp.o
+src/BreakoutController.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/src/BreakoutController.cpp.o
+.PHONY : src/BreakoutController.cpp.o
 
-src/RPSGameObject.i: src/RPSGameObject.cpp.i
-.PHONY : src/RPSGameObject.i
+src/BreakoutController.i: src/BreakoutController.cpp.i
+.PHONY : src/BreakoutController.i
 
 # target to preprocess a source file
-src/RPSGameObject.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/src/RPSGameObject.cpp.i
-.PHONY : src/RPSGameObject.cpp.i
+src/BreakoutController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/src/BreakoutController.cpp.i
+.PHONY : src/BreakoutController.cpp.i
 
-src/RPSGameObject.s: src/RPSGameObject.cpp.s
-.PHONY : src/RPSGameObject.s
+src/BreakoutController.s: src/BreakoutController.cpp.s
+.PHONY : src/BreakoutController.s
 
 # target to generate assembly for a file
-src/RPSGameObject.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/src/RPSGameObject.cpp.s
-.PHONY : src/RPSGameObject.cpp.s
+src/BreakoutController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/src/BreakoutController.cpp.s
+.PHONY : src/BreakoutController.cpp.s
 
-src/controller.o: src/controller.cpp.o
-.PHONY : src/controller.o
+src/BreakoutGameObject.o: src/BreakoutGameObject.cpp.o
+.PHONY : src/BreakoutGameObject.o
 
 # target to build an object file
-src/controller.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/src/controller.cpp.o
-.PHONY : src/controller.cpp.o
+src/BreakoutGameObject.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/src/BreakoutGameObject.cpp.o
+.PHONY : src/BreakoutGameObject.cpp.o
 
-src/controller.i: src/controller.cpp.i
-.PHONY : src/controller.i
+src/BreakoutGameObject.i: src/BreakoutGameObject.cpp.i
+.PHONY : src/BreakoutGameObject.i
 
 # target to preprocess a source file
-src/controller.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/src/controller.cpp.i
-.PHONY : src/controller.cpp.i
+src/BreakoutGameObject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/src/BreakoutGameObject.cpp.i
+.PHONY : src/BreakoutGameObject.cpp.i
 
-src/controller.s: src/controller.cpp.s
-.PHONY : src/controller.s
+src/BreakoutGameObject.s: src/BreakoutGameObject.cpp.s
+.PHONY : src/BreakoutGameObject.s
 
 # target to generate assembly for a file
-src/controller.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/src/controller.cpp.s
-.PHONY : src/controller.cpp.s
+src/BreakoutGameObject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/src/BreakoutGameObject.cpp.s
+.PHONY : src/BreakoutGameObject.cpp.s
+
+src/BrickGameObject.o: src/BrickGameObject.cpp.o
+.PHONY : src/BrickGameObject.o
+
+# target to build an object file
+src/BrickGameObject.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/src/BrickGameObject.cpp.o
+.PHONY : src/BrickGameObject.cpp.o
+
+src/BrickGameObject.i: src/BrickGameObject.cpp.i
+.PHONY : src/BrickGameObject.i
+
+# target to preprocess a source file
+src/BrickGameObject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/src/BrickGameObject.cpp.i
+.PHONY : src/BrickGameObject.cpp.i
+
+src/BrickGameObject.s: src/BrickGameObject.cpp.s
+.PHONY : src/BrickGameObject.s
+
+# target to generate assembly for a file
+src/BrickGameObject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/src/BrickGameObject.cpp.s
+.PHONY : src/BrickGameObject.cpp.s
 
 src/gameObject.o: src/gameObject.cpp.o
 .PHONY : src/gameObject.o
@@ -357,12 +381,15 @@ help:
 	@echo "... src/AnsiPrint.o"
 	@echo "... src/AnsiPrint.i"
 	@echo "... src/AnsiPrint.s"
-	@echo "... src/RPSGameObject.o"
-	@echo "... src/RPSGameObject.i"
-	@echo "... src/RPSGameObject.s"
-	@echo "... src/controller.o"
-	@echo "... src/controller.i"
-	@echo "... src/controller.s"
+	@echo "... src/BreakoutController.o"
+	@echo "... src/BreakoutController.i"
+	@echo "... src/BreakoutController.s"
+	@echo "... src/BreakoutGameObject.o"
+	@echo "... src/BreakoutGameObject.i"
+	@echo "... src/BreakoutGameObject.s"
+	@echo "... src/BrickGameObject.o"
+	@echo "... src/BrickGameObject.i"
+	@echo "... src/BrickGameObject.s"
 	@echo "... src/gameObject.o"
 	@echo "... src/gameObject.i"
 	@echo "... src/gameObject.s"

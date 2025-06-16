@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include "view.h"
-#include "controller.h"
+#include "BreakoutController.h"
 #include "AnsiPrint.h"
 /**
  * Print my id
@@ -17,16 +17,15 @@ PrintMyID(std::string studId) {
 
 int main(){
     View view;
-    Controller controller(view);
+    BreakoutController controller(view);
     try{
         controller.run();
     }// TODO 
-    // Integrate the Simple MVC Pattern to run the program.
 
 
     // TODO
     // change to your student ID.
-    catch (end&){
+    catch (endGame&){
         PrintMyID("113703023");
     }
 }
